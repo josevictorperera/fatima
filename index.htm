@@ -53,8 +53,22 @@
 
 </head>
 <body class="bg-light text-center">
+  
+  
+  <!-- floater  -->
+  <button id="toggleInfoBtn" class="btn btn-primary d-sm-none" style="position: fixed; top: 20px; left: 20px; z-index: 1000;">
+  Mostrar información
+  </button>
 
-  <div class="container py-5">
+  <div class="info-fija d-none d-sm-block" id="infoFija">
+  <p><strong>Dirección:</strong><br>12 avenida 7-21 zona 1, San Mateo 2, Esquipulas, Chiquimula</p>
+  <p><strong>Teléfono:</strong> +502 4183 5663</p>
+  <p><strong>WhatsApp:</strong> (502) 4183-5663</p>
+  <p><strong>Email:</strong> <a href="mailto:clinicafatima@myguate.net">clinicafatima@myguate.net</a></p>
+  <p><strong>GPS:</strong> 14°34'04.0"N 89°20'47.8"W</p>
+  </div>
+
+    <div class="container py-5">
     <h1 class="mb-4">Clínica Nuestra Señora de Fátima</h1>
     
     <img src="images/index.png" alt="Clínica Nuestra Señora de Fátima" class="img-fluid mb-4" style="max-height: 500px; object-fit: cover;">
@@ -118,20 +132,6 @@
   <!-- Custom JS -->
   <script src="js/scripts.js"></script>
 </body>
-  
-  <!-- floater  -->
-  <button id="toggleInfoBtn" class="btn btn-primary d-sm-none" style="position: fixed; top: 20px; left: 20px; z-index: 1000;">
-  Mostrar información
-</button>
-
-<div class="info-fija d-none d-sm-block" id="infoFija">
-  <p><strong>Dirección:</strong><br>12 avenida 7-21 zona 1, San Mateo 2, Esquipulas, Chiquimula</p>
-  <p><strong>Teléfono:</strong> +502 4183 5663</p>
-  <p><strong>WhatsApp:</strong> (502) 4183-5663</p>
-  <p><strong>Email:</strong> <a href="mailto:clinicafatima@myguate.net">clinicafatima@myguate.net</a></p>
-  <p><strong>GPS:</strong> 14°34'04.0"N 89°20'47.8"W</p>
-</div>
-
   <footer class="bg-dark text-light py-4 mt-5">
   <div class="container">
     <div class="row">
