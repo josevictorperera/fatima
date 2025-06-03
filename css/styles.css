@@ -241,3 +241,35 @@ footer .social-icons a:focus {
     font-size: 1rem;
   }
 }
+
+/* floater */
+
+.info-fija {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  z-index: 999;
+  width: 260px;
+  font-size: 0.95rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.info-fija a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.info-fija a:hover {
+  text-decoration: underline;
+}
+
+/* Responsivo: ocultar en pantallas pequeñas si lo deseas */
+@media (max-width: 576px) {
+  .info-fija {
+    display: none;
+  }
+}
