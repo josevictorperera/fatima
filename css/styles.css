@@ -267,9 +267,9 @@ footer .social-icons a:focus {
   text-decoration: underline;
 }
 
-/* Responsivo: ocultar en pantallas pequeñas si lo deseas */
+/* Responsivo: ocultar en pantallas pequeñas si lo deseas 
 @media (max-width: 576px) {
   .info-fija {
     display: none;
-  }
+  }*/
 }
