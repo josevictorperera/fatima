@@ -15,6 +15,21 @@ body {
   margin: 0 auto;
 }
 
+/* ========== Imagen bandera izquierda ========== */
+
+.background-left-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20vw; /* 20% of viewport width */
+  height: 100vh; /* Full height of viewport */
+  object-fit: cover;
+  z-index: -1; /* Send it to the back */
+  opacity: 0.2; /* Optional: make it subtle */
+  pointer-events: none; /* So it doesn't block links/buttons */
+}
+
+
 /* ========== Imagen Principal ========== */
 .img-fluid {
   max-width: 100%;
