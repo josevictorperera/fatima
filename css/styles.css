@@ -27,7 +27,7 @@ body {
   background-size: cover; /* or contain */
   background-position: center;
   background-repeat: no-repeat;
-  z-index: -1;
+  z-index: 1;
   opacity: 0.2;
   pointer-events: none;
 }
