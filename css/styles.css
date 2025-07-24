@@ -17,6 +17,19 @@ body {
 
 /* ========== Imagen bandera izquierda ========== */
 
+.background-left-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20vw;       /* 20% of the viewport width */
+  height: 100vh;     /* 100% of the viewport height */
+  object-fit: contain; /* Crop and scale the image to fill the box */
+  z-index: -1;       /* Put behind all other elements */
+  opacity: 0.2;      /* Optional: make it subtle */
+  pointer-events: none; /* Prevent blocking interaction */
+}
+
+
 .left-bg-image {
   background-color: red;
   position: fixed;
