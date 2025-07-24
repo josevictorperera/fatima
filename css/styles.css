@@ -166,7 +166,7 @@ footer h5 {
 }
 
 footer p, footer ul {
-  color: #bbb;
+  color: #5e1616;
   margin-bottom: 0.8rem;
 }
 
@@ -180,7 +180,7 @@ footer ul li {
 }
 
 footer a {
-  color: #bbb;
+  color: #5e1616;
   text-decoration: none;
   transition: color 0.3s ease;
 }
@@ -198,7 +198,7 @@ footer .bi {
 
 footer .social-icons a {
   margin-right: 1rem;
-  color: #bbb;
+  color: #5e1616;
   transition: color 0.3s ease;
 }
 
