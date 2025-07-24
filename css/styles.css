@@ -28,8 +28,8 @@ body {
   background-size: cover; /* or contain */
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 10;
-  opacity: 0.2;
+  z-index: 2000;
+  opacity: 1.2;
   pointer-events: none;
 }
 
