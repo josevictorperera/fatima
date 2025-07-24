@@ -25,7 +25,7 @@ body {
   width: 20vw;
   height: 100vh;
   background-image: url("images/clinicaFatima.png");
-  background-size: cover; /* or contain */
+  background-size: contain; /* or contain */
   background-position: center;
   background-repeat: no-repeat;
   z-index: 2000;
