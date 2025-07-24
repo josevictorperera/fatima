@@ -29,6 +29,13 @@ body {
   pointer-events: none; /* Prevent blocking interaction */
 }
 
+/* ========== spacer ========== */
+
+.spacer {
+  height: 100px;  /* adjust to the amount of space you need */
+}
+
+
 /* ========== Imagen Principal ========== */
 .img-fluid {
   max-width: 100%;
