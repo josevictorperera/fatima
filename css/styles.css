@@ -25,7 +25,9 @@ body {
   top: 0;
   left: 0;
   width: 100vw;       /* 40% of the viewport width */
-  /* height: 60vh;    60% of the viewport height */
+    /* These new rules prevent it from getting too large */
+  max-width: 1200px; /* Adjust this value as needed */
+  max-height: 700px; /* Adjust this value as needed */
   object-fit: contain; /* Crop and scale the image to fill the box */
   z-index: -1;       /* Put behind all other elements */
   opacity: 1.0;      /* Optional: make it subtle */
