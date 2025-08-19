@@ -23,7 +23,7 @@ body {
 .left-bg-image {
   position: relative;
   width: 100vw;       /* fills the screen width */
-  max-height: 700px;  /* don’t let it grow too tall */
+  /*max-height: 700px; */ /* don’t let it grow too tall */
   overflow: hidden;
 }
 
