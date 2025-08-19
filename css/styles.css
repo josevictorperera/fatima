@@ -45,7 +45,7 @@ body {
   height: 21%;  /* box height */
   cursor: pointer;
   pointer-events: auto;
-  background: rgba(255, 0, 0, 0.3);  /* 🔴 DEBUG overlay */
+  /*background: rgba(255, 0, 0, 0.3);  *//* 🔴 DEBUG overlay */
 }
 
 
