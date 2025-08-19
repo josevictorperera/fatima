@@ -20,19 +20,34 @@ body {
 
 /* ========== Imagen bandera izquierda ========== */
 
-.background-left-image {
-  /* position: fixed; */
-  top: 0;
-  left: 0;
-  width: 100vw;       /* 40% of the viewport width */
-    /* These new rules prevent it from getting too large */
-  /* max-width: 1200px; /* Adjust this value as needed */
-  max-height: 700px; /* Adjust this value as needed */
-  object-fit: contain; /* Crop and scale the image to fill the box */
-  z-index: -1;       /* Put behind all other elements */
-  opacity: 1.0;      /* Optional: make it subtle */
-  pointer-events: none; /* Prevent blocking interaction */
+.left-bg-image {
+  position: relative;
+  width: 100vw;       /* fills the screen width */
+  max-height: 700px;  /* don’t let it grow too tall */
+  overflow: hidden;
 }
+
+.background-left-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  z-index: -1;
+  opacity: 1.0;
+  pointer-events: none; /* image itself not clickable */
+}
+
+.phone-link {
+  position: absolute;
+  bottom: 2%;   /* anchor to bottom edge */
+  left: 6%;     /* distance from left edge */
+  width: 24%;   /* box width */
+  height: 21%;  /* box height */
+  cursor: pointer;
+  pointer-events: auto;
+  background: rgba(255, 0, 0, 0.3);  /* 🔴 DEBUG overlay */
+}
+
 
 /* ========== spacer ========== */
 
