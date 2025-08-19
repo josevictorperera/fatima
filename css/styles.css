@@ -90,68 +90,6 @@ p {
   text-align: center;
 }
 
-/* ========== Formulario de Contacto ========== */
-form {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
-  max-width: 600px;
-  margin: 2rem auto;
-}
-
-form .form-group {
-  margin-bottom: 1rem;
-}
-
-form label {
-  font-weight: 600;
-  display: block;
-  margin-bottom: 0.5rem;
-  color: #333;
-}
-
-form input, form textarea {
-  width: 100%;
-  padding: 10px 12px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
-}
-
-form input:focus, form textarea:focus {
-  outline: none;
-  border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0,123,255,0.5);
-}
-
-form textarea {
-  resize: vertical;
-  min-height: 120px;
-}
-
-form button[type="submit"] {
-  background-color: #007bff;
-  border: none;
-  color: #fff;
-  font-weight: 600;
-  padding: 12px 25px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  display: block;
-  margin: 1rem auto 0 auto;
-  font-size: 1.1rem;
-  width: 100%;
-  max-width: 200px;
-}
-
-form button[type="submit"]:hover,
-form button[type="submit"]:focus {
-  background-color: #0056b3;
-}
-
 /* ========== Google Maps Responsive Embed ========== */
 .map-responsive {
   position: relative;
@@ -177,7 +115,7 @@ form button[type="submit"]:focus {
 /* ========== Footer Profesional ========== */
 footer {
   background-color: #00a5aa;
-  color: #5e1616;
+  color: #fff;
   font-size: 0.9rem;
   padding: 2rem 0;
   margin-top: 3rem;
@@ -190,7 +128,7 @@ footer h5 {
 }
 
 footer p, footer ul {
-  color: #5e1616;
+  color: #fff;
   margin-bottom: 0.8rem;
 }
 
@@ -204,7 +142,7 @@ footer ul li {
 }
 
 footer a {
-  color: #5e1616;
+  color: #0d6efd;
   text-decoration: none;
   transition: color 0.3s ease;
 }
